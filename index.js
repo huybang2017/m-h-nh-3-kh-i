@@ -29,7 +29,7 @@ console.log("câu 3:");
 // program: tiền USD * mệnh giá 1 USD sang VND (23500) 
 const USD_VND = 23500
 let USD = 2
-console.log("dổi USD sang VND: ",USD_VND*USD);
+console.log("đổi USD sang VND: ",USD_VND*USD);
 
 
 
