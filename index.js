@@ -65,7 +65,7 @@ let num = 24,numUnit,numDozen,sum
 // hàng đơn vị
 numUnit = num % 10
 // hàng chục
-numDozen = num / 10
+numDozen = Math.floor(num / 10)
 // tổng các kí sô
 sum = numUnit + numDozen
 console.log("tổng các kí số là: ", sum);
